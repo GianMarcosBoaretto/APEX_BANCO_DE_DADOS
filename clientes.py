@@ -177,7 +177,7 @@ def abrir_cadastro_clientes():
     frame_botoes.pack(pady=(10, 20))
 
     # Botão Salvar
-    tk.Button(frame_botoes, text="Salvar Ordem de Serviço", command=salvar_dados_cliente).pack(side="left", padx=10)
+    tk.Button(frame_botoes, text="Salvar Cliente", command=salvar_dados_cliente).pack(side="left", padx=10)
 
     # Botão Voltar
     tk.Button(frame_botoes, text="Voltar", command=voltar_para_main).pack(side="left", padx=10)
