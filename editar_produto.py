@@ -25,7 +25,7 @@ def formatar_moeda(event, entry):
 
 def abrir_editar_produto():
     janela = tk.Tk()
-    janela.title("Editar Produtos")
+    janela.title("Editar Produtos/Serviços")
     janela.geometry("700x450")
 
     tk.Label(janela, text="Lista de Produtos/Serviços", font=("Arial", 12, "bold")).pack(pady=10)
