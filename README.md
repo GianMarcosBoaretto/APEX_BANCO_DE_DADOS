@@ -27,6 +27,7 @@ Bem-vindo ao repositório do **APEX**, um sistema de gerenciamento de cadastros 
 ---
 
 ## 🗂️ Estrutura do Projeto
+
 ├── clientes.py
 ├── cidades.py
 ├── produtos.py
