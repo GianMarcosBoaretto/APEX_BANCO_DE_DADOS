@@ -66,6 +66,13 @@ database = NOME_DO_BANCO" > bd.ini
 # 4. Execute o sistema
 py -m PyInstaller --onefile --noconsole --icon=icon.ico --name=apex_software login.py
 
+---
+
+## ⚙️ Acessos Iniciais
+
+# Usuário inicial será "admin" e senha "123".
+# Caso deseje alterar, pressione "F12", digite a senha do "admin" e você terá acesso ao gerenciamento de usuários.
+
 
 
 
