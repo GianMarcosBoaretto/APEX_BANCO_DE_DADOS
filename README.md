@@ -1,6 +1,6 @@
 # 🛠️ APEX - Sistema de Gerenciamento com Interface Gráfica e Banco de Dados
 
-Bem-vindo ao repositório do **APEX**, um sistema de gerenciamento de cadastros e operações administrativas com interface gráfica em Python, integração com banco de dados MySQL e geração automatizada de documentos de ordem de serviço.
+Bem-vindo ao repositório de nossa **APEX**, aonde desenvolvemos um sistema de gerenciamento de cadastros e operações administrativas com interface gráfica em Python, integração com banco de dados MySQL e geração automatizada de documentos de ordem de serviço.
 
 ---
 
