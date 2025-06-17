@@ -28,7 +28,7 @@ def abrir_editar_produto():
     janela.title("Editar Produtos")
     janela.geometry("700x450")
 
-    tk.Label(janela, text="Lista de Produtos", font=("Arial", 12, "bold")).pack(pady=10)
+    tk.Label(janela, text="Lista de Produtos/Serviços", font=("Arial", 12, "bold")).pack(pady=10)
 
     frame = tk.Frame(janela)
     frame.pack(expand=True, fill="both")
@@ -69,7 +69,7 @@ def abrir_editar_produto():
     def editar_produto_selecionado():
         item = tree.focus()
         if not item:
-            messagebox.showwarning("Aviso", "Selecione um produto.")
+            messagebox.showwarning("Aviso", "Selecione um produto/serviço.")
             return
         valores = tree.item(item, 'values')
         produto_id = valores[0]
@@ -98,7 +98,7 @@ def abrir_editar_produto():
     botoes_frame = tk.Frame(janela)
     botoes_frame.pack(pady=10)
 
-    tk.Button(botoes_frame, text="Editar Produto Selecionado", command=editar_produto_selecionado).pack(side="left", padx=10)
+    tk.Button(botoes_frame, text="Editar Produto/Serviço Selecionado", command=editar_produto_selecionado).pack(side="left", padx=10)
     tk.Button(botoes_frame, text="Voltar", command=voltar_para_main).pack(side="left", padx=10)
 
     carregar_produtos()
